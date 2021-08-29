@@ -1,0 +1,60 @@
+/* Denae Luna */
+
+html, body, h1, .column {
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    width: 45%;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 60%;
+}
+
+h3{
+    font-weight: 500;
+}
+
+ol, ul {
+    font-weight: 300;
+}
+
+ol {
+    border: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    border: 1px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: red;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.back{
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
