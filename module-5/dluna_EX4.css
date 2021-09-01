@@ -1,0 +1,52 @@
+html, .body {
+    background-color: rgba(238, 221, 73, 0.2);
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+}
+
+h1, h3, figcaption {
+    color: rgb(74, 11, 104);
+}
+
+.gallery_item_1{
+    border: 1px solid rgb(224, 57, 196);
+    border-radius: 15px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.gallery_item_2{
+    border: 1px solid rgb(155, 8, 185);
+    border-radius: 15px;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.gallery_item_3{
+    border: 1px solid rgb(85, 8, 185);
+    border-radius: 15px;
+    padding: 5px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
