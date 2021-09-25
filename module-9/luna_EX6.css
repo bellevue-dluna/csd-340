@@ -1,0 +1,112 @@
+/**
+    Assignment 8.2 - Styles
+ */
+ body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #1e0344;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #4b09ad;
+    border-bottom: 15px solid #D6A800;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #D6A800;
+    color: #4b09ad;
+}
+
+#container {
+    padding: 10px;
+    margin: 2% 5% 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4b09ad;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#movies {
+    border-collapse: collapse;
+}
+
+#movies th {
+    padding: 12px 20px 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+footer {
+    background-color: #4b09ad;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+
+footer p {
+    color: #FFF;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
