@@ -1,0 +1,167 @@
+<!--    
+Denae Luna  
+CSD 340  
+-->
+
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&display=swap" rel="stylesheet">
+        
+        <meta charset ="UTF-8">
+        <meta name="description" content="Favorite Foods Card"/>
+        <meta name="keywords" content="CSS, HTML, Web Development, Bellevue University" />
+        <meta name="robots" content="nofollow" />
+        <meta name="author" content="Student: Denae Luna" />
+        
+    </head>
+
+    <header>
+        <div id="header-contents">
+            <h1>Assignment 12.3 - My Landing Page</h1>
+        </div>
+    </header>
+
+    <body>
+        <div id= "hobbies"> 
+
+            <figure class="bio-img">
+                <img class="pic" src="img/personal.jpg" alt="bio photo">
+                <img class="pic" src="img/gamer.jpg" alt="bio photo">
+                <div id = "icons">
+                    <a href="https://www.facebook.com/denae.wimpee" target="_blank">
+                        <img class = "icon" src="img/facebook.png" alt="facebook" >
+                    </a>
+                    <a href="https://www.instagram.com/wings_of_war/" target="_blank">
+                        <img class = "icon" src="img/instagram.jfif" alt="instagram">
+                    </a>
+                    <a href="https://twitter.com/DenaeLuna3" target="_blank">
+                        <img class = "icon" src="img/twitter.png" alt="twitter">
+                    </a>
+                </div>
+            </figure>
+
+            <figure class="intro">
+                <p style="word-wrap: break-word;">
+                    My name is Dena'e Luna. I'm newly 30-years old. I'm a mother of two 
+                    wild toddlers Liam and Xayla. I've been happily married to a man I 
+                    met on Xbox live 10 years ago. I'm currently serving in the US Air Force
+                    as a Public Health Flight Chief at Edwards Air Force Base in California. 
+                    I intend to be high school teacher when I grow up.
+                </p>
+            </figure>
+
+            <div class="hob-heading">
+                <h1>Hobbies</h1>
+            </div>
+
+            <figure class="hob1">
+                <h3>Gamer Girl</h3>
+                <img class="icon" src="img/xbox.png" alt="xbox icon">
+                <p>
+                    As you may have guessed, I love playing video games. That's how my hubby
+                    and I met. Back then I was a ranked player when it wasn't cool to be a female
+                    gamer, but I tell you what--I still make a mean sandwich.
+                </p>
+            </figure>
+
+            <figure class="hob2">
+                <h3>Horror</h3>
+                <img class = "icon" src="img/quill.png" alt="quill">
+                <p>
+                    One of my other favorite things to do in my free time is write short stories. 
+                    Currently working with the publishing company to get one of my horror stories 
+                    published I'll post it here when I'm done. 
+                </p>
+            </figure>
+
+            <figure class="hob3">
+                <h3>Marathon Training </h3>
+                <img class="icon" src="img/tennishoe.jpg" alt="shoes">
+                <p>
+                    My last favorite hobby is running. I used to hate it, but now I find such power 
+                    and strength in pushing myself further than I thought I could. I intend to run a 
+                    marathon next year. 
+                </p>
+            </figure>
+
+        </div>
+
+        <h1 id="exp">Work Experience</h1>
+
+        <div id="experience">
+            <div class="card">
+                <div class="card-title">Coach</div>
+                <div class="card-content">
+                    <img src="img/coach.jfif" alt="sucessful life">
+                    <p>
+                        I've done well for myself coaching others. Part of my job every day 
+                        is one on one coaching with my team. I've been certified in resilience, 
+                        team building, in project management. 
+                    </p>
+                    <ul>
+                        <h3>Certifications</h3>
+                        <li>Master Resiliency Trainer</li>
+                        <li>5 Voices by Giant</li>
+                        <li>Certified ASsociate in Project Management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Deployment</div>
+                <div class="card-content">
+                    <img src="img/uniform.PNG" alt="me in uniform">
+                    <p>
+                        I deployed in 2015 to Qatar for seven months. Our mission there was primarily 
+                        support for the Qatari troops and to act as a hub for other deployment locations 
+                        in that area. My job was disease prevention and control. While deployed I actually 
+                        encountered a patient who had contracted Lyme disease and was suffering the severe
+                        consequences after he landed in country. We were able to get him safely back home
+                        after some antibiotics
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Flight Chief</div>
+                <div class="card-content">
+                <img src="img/flight.jpg" alt="uniformed amn in helicopter">
+                <p>
+                    What are my favorite experiences thus far would be my current job as flight chief of 
+                    the public health flight. I'm in charge of managing these amazing airmen and keeping 
+                    all of our lives together during this pandemic. They are my family away from family.
+                    Everyday I got to work it is to serve them and to make sure that they make it home safe.
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="contact-me">
+            <div class="contact-card">
+                <div class="card-title"><h3>Contact Me Below</h3></div>
+            <form method="post" name="contact_form" action="contact-form-handler.php">
+                <label for="fname">First Name:</label> 
+                <input type="text" name="fname"><br>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname"><br>
+                <label for="email">Email Address: </label>
+                <input type="text" name="email"><br>
+                <label for="message">Message: </label><br>
+                <textarea name="message"></textarea><br>
+                <input id="btn" type="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p>Copyright&copy 2021 - Luna</p>
+        <a href="../index.html">Back to Home</a>
+    </footer>
